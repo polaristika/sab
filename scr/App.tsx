@@ -22,30 +22,27 @@ import {
 type ViewState = 'profile' | 'high-poly' | 'mid-poly' | 'low-poly';
 
 const highPolyImages = [
-  "https://media.discordapp.net/attachments/948898963766001665/1477037858291187732/image2.png?ex=69a34e33&is=69a1fcb3&hm=80a9764cb86563267465cacd6b13d96649c6657cb5fdb412cca3dfbe5f2a28ab&=&format=webp&quality=lossless&width=1250&height=704",
-  "https://media.discordapp.net/attachments/948898963766001665/1477037859218260203/image.png?ex=69a34e33&is=69a1fcb3&hm=ee22df07913c19db3cae6b3f18505ad5c69c80d01bdedffd4b0ad4afffcbb29f&=&format=webp&quality=lossless&width=1250&height=704",
-  "https://media.discordapp.net/attachments/948898963766001665/1477037857616171171/frame_2_delay-2.5s.jpg?ex=69a34e33&is=69a1fcb3&hm=4cf43c53520487753978d248b9fdfae5f2b4ed59c501f1ded311b863b7f13974&=&format=webp&width=998&height=576",
-  "https://media.discordapp.net/attachments/948898963766001665/1477037856051560508/image4.png?ex=69a34e32&is=69a1fcb2&hm=b4ddd69d5edb7ca020334c0999ffdb32f1b943b67bd1fcac961254f3c0b9176b&=&format=webp&quality=lossless&width=1355&height=704",
-  "https://media.discordapp.net/attachments/948898963766001665/1477037856869322782/image3.png?ex=69a34e33&is=69a1fcb3&hm=10079773e58c8376dfcbaeb255db449e09faf925e6162346ed89cdf3ca269735&=&format=webp&quality=lossless&width=1418&height=704",
-  "https://media.discordapp.net/attachments/948898963766001665/1477037855095394507/image5.png?ex=69a34e32&is=69a1fcb2&hm=93d2a3481233999cfdd40e46267fc195a20645d23da028d3e247287254d9a9f9&=&format=webp&quality=lossless&width=1084&height=704"
+  "https://github.com/polaristika/sab/blob/main/models/high%20polly/frame_2_delay-2.5s.webp"
+  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image.webp"
+  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image2.webp"
+  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image3.webp"
+  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image4.webp"
+  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image5.webp"
+
 ];
 
 const midPolyImages = [
-  "https://media.discordapp.net/attachments/948898963766001665/1477045512036286586/Union11_nmap.png?ex=69a35554&is=69a203d4&hm=0c0ff354b9262a31f126eb61242bb9420d8b7335871ff8adb4a6e678313f562c&=&format=webp&quality=lossless&width=1384&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477045513282125966/New_Project.png?ex=69a35554&is=69a203d4&hm=bca455067cb31464c978f7726e771b456a0c2a4896a0a80fbc2f0563cdaafcfa&=&format=webp&quality=lossless&width=1384&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477045513726591047/image.png?ex=69a35554&is=69a203d4&hm=6014a35c98f22a816a285961c444898122a475b0956575ab683be48a66b90739&=&format=webp&quality=lossless&width=1222&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477045511633637487/image.png?ex=69a35554&is=69a203d4&hm=2e2207ef7d59dd7b7a29a28c4451fb0d3cd3e0bf88dc04e9e08d607d1017ed31&=&format=webp&quality=lossless",
-  "https://media.discordapp.net/attachments/948898963766001665/1477045512820756490/image.png?ex=69a35554&is=69a203d4&hm=b41c7d4ba1826879ee495d0e083c13a6851802c037d7c3d00c7604b4c5836308&=&format=webp&quality=lossless&width=1362&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477046551292543067/image.png?ex=69a3564c&is=69a204cc&hm=3ad4f7b3fd1235ffaf6cb3e84fc2c9528ebd62aa2ed094759fcb440f4f02f141&=&format=webp&quality=lossless&width=1376&height=806"
-];
+   "https://github.com/polaristika/sab/blob/main/models/high%20polly/image2.webp"
+  "https://github.com/polaristika/sab/blob/main/models/mid%20polly/New_Project.webp"
+  "https://github.com/polaristika/sab/blob/main/models/mid%20polly/Union11_nmap.webp"
+  ];
 
 const lowPolyImages = [
-  "https://media.discordapp.net/attachments/948898963766001665/1477049855745458206/image.png?ex=69a3595f&is=69a207df&hm=d952d7abc58678e5b34f873d2b97af81709fdb7fc617ed208fa0c2cbd069686e&=&format=webp&quality=lossless&width=1600&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477049855065985024/New_Project.png?ex=69a3595f&is=69a207df&hm=62527ba774e3498d64dd452625f6a0d684a201cc519aede5f84db613b3fd47b6&=&format=webp&quality=lossless&width=1384&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477049856567672972/frame_3_delay-2.5s.jpg?ex=69a35960&is=69a207e0&hm=d11819da1cdcd9a2075da377b098ee9f2015ba657a68fe48c4e183bec5863ba4&=&format=webp",
-  "https://media.discordapp.net/attachments/948898963766001665/1477049857939210442/hammx-murshid-12.png?ex=69a35960&is=69a207e0&hm=f1c63b37687f649246ba10055847113a73d63b0e5ec235777ded6065c5bf5a4f&=&format=webp&quality=lossless&width=1434&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477049857452539945/hammx-murshid-untitled.png?ex=69a35960&is=69a207e0&hm=247b7f1174a9e4bedc75377e1e03c4126683a0e82ba8be9dc2e91fcea7722aaa&=&format=webp&quality=lossless&width=1384&height=779",
-  "https://media.discordapp.net/attachments/948898963766001665/1477049858312634461/image.png?ex=69a35960&is=69a207e0&hm=f32b84de85d81eb1671a655ec151cc9e67b7606e57fe565aa839b85f72dd9e55&=&format=webp&quality=lossless&width=1394&height=779"
+  "https://github.com/polaristika/sab/blob/main/models/low%20polly/New_Project.webp"
+  "https://github.com/polaristika/sab/blob/main/models/low%20polly/frame_3_delay-2.5s.webp"
+  "https://github.com/polaristika/sab/blob/main/models/low%20polly/hammx-murshid-12.webp"
+  "https://github.com/polaristika/sab/blob/main/models/low%20polly/hammx-murshid-untitled.webp"
+  "https://github.com/polaristika/sab/blob/main/models/low%20polly/image.webp" 
 ];
 
 export default function App() {
