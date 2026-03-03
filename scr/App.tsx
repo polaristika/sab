@@ -194,7 +194,7 @@ export default function App() {
               <div className="p-2 inset-panel">
                 <div className="relative aspect-square overflow-hidden rounded-lg border-2 border-gray-900 shadow-inner bg-black">
                   <img 
-                    src="https://media.discordapp.net/attachments/948898963766001665/1477019683164258315/0001-0252-ezgif.com-optimize.gif?ex=69a33d46&is=69a1ebc6&hm=8d4f2f0d879767232d86d7b6c989870238a54219010ba6a593be8c7defbefbf1&=&width=834&height=834" 
+                    src="https://github.com/polaristika/sab/blob/main/models/0001-0252-ezgif.com-optimize.gif" 
                     alt="Profile" 
                     className={`w-full h-full object-cover transition-all duration-700 ${!isOn ? 'opacity-0' : 'opacity-80 sepia-[.2] contrast-125'}`}
                     referrerPolicy="no-referrer"
