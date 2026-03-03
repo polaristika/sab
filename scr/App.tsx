@@ -22,27 +22,27 @@ import {
 type ViewState = 'profile' | 'high-poly' | 'mid-poly' | 'low-poly';
 
 const highPolyImages = [
-  "https://github.com/polaristika/sab/blob/main/models/high%20polly/frame_2_delay-2.5s.webp"
-  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image.webp"
-  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image2.webp"
-  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image3.webp"
-  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image4.webp"
-  "https://github.com/polaristika/sab/blob/main/models/high%20polly/image5.webp"
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/frame_2_delay-2.5s.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/image.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/image2.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/image3.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/image4.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/image5.webp",
 
 ];
 
 const midPolyImages = [
-   "https://github.com/polaristika/sab/blob/main/models/high%20polly/image2.webp"
-  "https://github.com/polaristika/sab/blob/main/models/mid%20polly/New_Project.webp"
-  "https://github.com/polaristika/sab/blob/main/models/mid%20polly/Union11_nmap.webp"
+   "https://raw.githubusercontent.com/polaristika/sab/main/models/high%20polly/image2.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/mid%20polly/New_Project.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/mid%20polly/Union11_nmap.webp",
   ];
 
 const lowPolyImages = [
-  "https://github.com/polaristika/sab/blob/main/models/low%20polly/New_Project.webp"
-  "https://github.com/polaristika/sab/blob/main/models/low%20polly/frame_3_delay-2.5s.webp"
-  "https://github.com/polaristika/sab/blob/main/models/low%20polly/hammx-murshid-12.webp"
-  "https://github.com/polaristika/sab/blob/main/models/low%20polly/hammx-murshid-untitled.webp"
-  "https://github.com/polaristika/sab/blob/main/models/low%20polly/image.webp" 
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/low%20polly/New_Project.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/low%20polly/frame_3_delay-2.5s.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/low%20polly/hammx-murshid-12.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/low%20polly/hammx-murshid-untitled.webp",
+  "https://raw.githubusercontent.com/polaristika/sab/main/models/low%20polly/image.webp",
 ];
 
 export default function App() {
