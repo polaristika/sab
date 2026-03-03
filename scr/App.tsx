@@ -171,9 +171,15 @@ export default function App() {
             </div>
             
             <div className="flex items-center gap-6">
-              <div className="flex gap-2">
-                <div className="w-12 h-2 inset-panel rounded-full" />
-                <div className="w-12 h-2 inset-panel rounded-full" />
+              <div className="flex items-center gap-3">
+                <div className="flex items-center gap-1">
+                  <Wifi className="w-3 h-3 text-gray-500" aria-label="Wifi signal strength" />
+                  <div className="w-10 h-2 inset-panel rounded-full" />
+                </div>
+                <div className="flex items-center gap-1">
+                  <Volume2 className="w-3 h-3 text-gray-500" aria-label="Volume level" />
+                  <div className="w-10 h-2 inset-panel rounded-full" />
+                </div>
               </div>
               <button 
                 onClick={() => setIsOn(!isOn)}
